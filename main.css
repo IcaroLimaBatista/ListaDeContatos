@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #d7f7f6;
+
+}
+
+header{
+    position: fixed;
+    width: 40vh;
+    height: 100vh;
+    background-color: #023535;
+}
+
+header nav{
+    padding-top: 7vh;
+    margin-left: 3vh;
+
+}
+
+header form {
+    margin-top: 7vh;
+}
+
+header form input{
+    display: block;
+    width: 30vh;
+    height: 5vh;
+    background-color: #02cac7;
+    border: 0;
+    border-radius: 1vh;
+    margin-top: 2vh;
+}
+
+.nome-pessoa{
+    margin-bottom: 20vh;
+}
+
+button{
+    width: 30vh;
+    height: 5vh;
+    margin-top: 20vh;
+    background-color: #008F8C;
+    border: 0;
+    border-radius: 1vh;
+    transition: .5s;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #0CABA8;
+
+}
+
+/* ---------------- */
+
+main {
+    height: 100vh;
+    margin-left: 40vh;
+    background-color: #015958;
+}
+
+.texts{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10vh;
+}
+
+.colunas{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10vh;
+}
