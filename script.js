@@ -20,7 +20,7 @@ function novoContato(){
             
             erroNumero.style.display = "none"
 
-            if(contagem <= 4){
+            if(contagem <= 2){
                 contagem++;
                 let novoItem = `<div class="colunas">
                 <h3 id="nome">${inputNome.value}</h3>
